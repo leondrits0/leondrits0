@@ -1,47 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="leondrit developer blueprint">
-  <defs>
-    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M20 0H0V20" fill="none" stroke="#48a9d9" stroke-opacity=".22" stroke-width="1"/>
-    </pattern>
-    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
-      <rect width="100" height="100" fill="url(#smallGrid)"/>
-      <path d="M100 0H0V100" fill="none" stroke="#8bdcff" stroke-opacity=".35" stroke-width="1.5"/>
-    </pattern>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="leondrit technical blueprint">
+<defs>
+  <pattern id="minor" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#55b7e5" stroke-opacity=".18"/></pattern>
+  <pattern id="major" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#minor)"/><path d="M100 0H0V100" fill="none" stroke="#8bdcff" stroke-opacity=".32" stroke-width="1.5"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8 4 0 0v8z" fill="#9ee7ff"/></marker>
+</defs>
 
-  <rect width="1200" height="420" rx="12" fill="#063451"/>
-  <rect width="1200" height="420" rx="12" fill="url(#grid)"/>
-  <rect x="24" y="24" width="1152" height="372" rx="4" fill="none" stroke="#bdeeff" stroke-width="1.5"/>
+<rect width="1200" height="900" rx="14" fill="#073654"/>
+<rect width="1200" height="900" rx="14" fill="url(#major)"/>
+<rect x="26" y="26" width="1148" height="848" fill="none" stroke="#c7f2ff" stroke-width="1.5"/>
+<path d="M26 92h1148M26 790h1148M360 92v698M950 92v698" fill="none" stroke="#8bdcff" stroke-opacity=".65"/>
 
-  <g fill="none" stroke="#bdeeff" stroke-width="1.5">
-    <path d="M74 72H338M74 348H338"/>
-    <path d="M74 64v16M338 64v16M74 340v16M338 340v16"/>
-    <circle cx="206" cy="210" r="90"/>
-    <circle cx="206" cy="210" r="66" stroke-dasharray="5 7"/>
-    <path d="M100 210h212M206 104v212"/>
-    <path d="M142 252l36-88 30 88 32-88 30 88" stroke-width="5" filter="url(#glow)"/>
-  </g>
+<g fill="#d9f8ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <text x="48" y="61" font-size="14" letter-spacing="3">LEONDRIT / PERSONAL SYSTEM BLUEPRINT</text>
+  <text x="1010" y="61" font-size="14">SHEET 01—01</text>
+  <text x="405" y="235" font-size="104" font-weight="700" letter-spacing="-5" filter="url(#glow)">leondrit</text>
+  <text x="412" y="280" font-size="18" letter-spacing="6" fill="#9ee7ff">DESIGN / DEVELOP / ITERATE</text>
+  <text x="412" y="350" font-size="14" letter-spacing="2">FRONTEND DEVELOPER IN PROGRESS</text>
+  <text x="412" y="385" font-size="14" fill="#9ee7ff">BUILDING CLEAN DIGITAL INTERFACES</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#d9f6ff">
-    <text x="405" y="112" font-size="18" letter-spacing="4">DEVELOPER PROFILE / REV. 01</text>
-    <text x="400" y="218" font-size="92" font-weight="700" letter-spacing="-4">leondrit</text>
-    <text x="405" y="264" font-size="22" letter-spacing="3">FRONTEND · UI/UX · BUILDING IN PUBLIC</text>
-    <text x="405" y="330" font-size="15" fill="#8bdcff">STATUS: LEARNING / DESIGNING / SHIPPING</text>
-  </g>
+  <text x="412" y="495" font-size="12" letter-spacing="3" fill="#9ee7ff">SYSTEM COMPONENTS</text>
+  <text x="412" y="540" font-size="18">HTML</text>
+  <text x="535" y="540" font-size="18">CSS</text>
+  <text x="640" y="540" font-size="18">JAVASCRIPT</text>
+  <text x="815" y="540" font-size="18">REACT</text>
 
-  <g fill="#bdeeff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">
-    <text x="42" y="52">A-01</text>
-    <text x="1110" y="52">1200 × 420</text>
-    <text x="42" y="382">SCALE 1:1</text>
-    <text x="1052" y="382">LEONDRIT_2026</text>
-  </g>
+  <text x="412" y="645" font-size="12" letter-spacing="3" fill="#9ee7ff">OPERATING SEQUENCE</text>
+  <text x="412" y="690" font-size="16">01  PLAN</text>
+  <text x="548" y="690" font-size="16">02  BUILD</text>
+  <text x="696" y="690" font-size="16">03  TEST</text>
+  <text x="830" y="690" font-size="16">04  REFINE</text>
 
-  <g fill="none" stroke="#8bdcff" stroke-width="1">
-    <path d="M382 78h744M382 286h744"/>
-    <path d="M1110 70l16 8-16 8M398 278l-16 8 16 8"/>
-  </g>
+  <text x="48" y="824" font-size="13">STATUS: ACTIVE DEVELOPMENT</text>
+  <text x="487" y="824" font-size="13">REVISION: 2026.01</text>
+  <text x="1018" y="824" font-size="13">SCALE 1:1</text>
+  <text x="48" y="852" font-size="11" fill="#8bdcff">ALL DIMENSIONS ARE INTENTIONAL · SUBJECT TO CONTINUOUS IMPROVEMENT</text>
+</g>
+
+<g fill="none" stroke="#c7f2ff">
+  <circle cx="194" cy="310" r="112" stroke-width="2"/>
+  <circle cx="194" cy="310" r="82" stroke-dasharray="7 7"/>
+  <circle cx="194" cy="310" r="24"/>
+  <path d="M62 310h264M194 178v264"/>
+  <path d="M126 356l36-92 32 92 34-92 34 92" stroke-width="6" filter="url(#glow)"/>
+  <path d="M82 486h224v186H82z"/>
+  <path d="M98 508h192M98 535h132M98 562h178M98 589h105M98 616h160M98 643h78"/>
+  <circle cx="291" cy="508" r="5" fill="#c7f2ff"/>
+
+  <path d="M402 305h516M402 418h516M402 575h516M402 728h516" stroke="#8bdcff" stroke-opacity=".7"/>
+  <path d="M412 565v20M523 565v20M628 565v20M803 565v20M905 565v20"/>
+  <path d="M412 713v20M532 713v20M680 713v20M814 713v20M918 713v20"/>
+
+  <path d="M388 135h544" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path d="M388 126v18M932 126v18"/>
+  <path d="M336 116v610" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <path d="M327 116h18M327 726h18"/>
+</g>
+
+<g fill="#9ee7ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">
+  <text x="615" y="126">544 UNITS</text>
+  <text x="323" y="445" transform="rotate(-90 323 445)">610 UNITS</text>
+  <text x="70" y="120">MARK A</text>
+  <text x="270" y="466">DETAIL 01</text>
+  <text x="967" y="120">REFERENCE</text>
+  <text x="970" y="155">X  48.2082</text>
+  <text x="970" y="178">Y  16.3738</text>
+  <text x="970" y="215">GRID 20/100</text>
+  <text x="970" y="238">UNIT PX</text>
+  <text x="970" y="275">MODE BUILD</text>
+</g>
 </svg>
