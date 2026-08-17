@@ -1,50 +1,92 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:2563EB,100:06B6D4&text=ZENITH&fontColor=ffffff&fontSize=72&fontAlignY=40" alt="Zenith profile banner" />
+<img src="./assets/leondrit-blueprint.svg" width="100%" alt="leondrit developer profile blueprint" />
 
-### Frontend learner · UI enthusiast · Builder
+<br />
 
-I create modern web experiences, sharpen my UI/UX skills, and turn ideas into practical projects.
-
-<a href="https://x.com/ZenithKSV"><img src="https://img.shields.io/badge/Follow_on_X-0F172A?style=for-the-badge&logo=x&logoColor=white" alt="Follow ZenithKSV on X" /></a>
+`PROFILE SPECIFICATION  /  FRONTEND SYSTEMS  /  REV. 01`
 
 </div>
 
-## About me
+<br />
 
-- Currently learning **React** and modern frontend development
-- Improving my **UI/UX design** workflow with Figma
-- Learning by building, experimenting, and shipping projects
-- Interested in clean interfaces, useful developer tools, and thoughtful details
+## 01 — DESIGN BRIEF
 
-## Featured project
+> I’m **leondrit** — a developer in progress, focused on turning clean ideas into
+> thoughtful interfaces. I learn by designing, building, testing, and rebuilding.
 
-### [⚡ ZenithTerminal](https://github.com/leondrits0/Zenith-s-Terminal)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A modern PowerShell-based terminal utility with an interactive menu, developer shortcuts, system information, automation features, and an improved command-line experience.
+### CURRENT COORDINATES
 
-[![View repository](https://img.shields.io/badge/View_repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leondrits0/Zenith-s-Terminal)
-[![Latest release](https://img.shields.io/badge/Latest_release-06B6D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leondrits0/Zenith-s-Terminal/releases/latest)
+```yaml
+focus: frontend development
+learning: React + JavaScript
+craft: UI/UX design
+method: build → review → improve
+status: work in progress
+```
 
-## Tech stack
+</td>
+<td width="50%" valign="top">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,java,c,figma,vscode,github&perline=9" alt="HTML, CSS, JavaScript, React, Java, C, Figma, VS Code and GitHub" />
-
-## Current focus
+### BUILD PRINCIPLES
 
 ```text
-Build cleaner interfaces
-Learn React through real projects
-Improve design systems and component thinking
-Ship, reflect, iterate
+01  Make it useful
+02  Keep it clear
+03  Sweat the details
+04  Learn by shipping
+05  Improve every revision
 ```
+
+</td>
+</tr>
+</table>
+
+## 02 — TOOLING SPECIFICATION
 
 <div align="center">
 
-### Thanks for stopping by 👋
+<img src="https://skillicons.dev/icons?i=html,css,js,react,java,c,figma,vscode,github&theme=dark&perline=9" alt="HTML, CSS, JavaScript, React, Java, C, Figma, VS Code and GitHub" />
 
-If something here interests you, take a look at my projects or follow along as I keep building.
+<br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:2563EB,100:06B6D4" alt="" />
+`HTML`　`CSS`　`JAVASCRIPT`　`REACT`　`FIGMA`　`GIT`
+
+</div>
+
+## 03 — ACTIVE BUILD PLAN
+
+| ID | System | Objective | State |
+|:--:|:--|:--|:--:|
+| A–01 | Frontend | Build responsive, polished interfaces | `ACTIVE` |
+| A–02 | React | Think in reusable components | `LEARNING` |
+| A–03 | UI/UX | Improve hierarchy, spacing, and interaction | `ITERATING` |
+| A–04 | Portfolio | Turn experiments into finished work | `PLANNED` |
+
+## 04 — DEVELOPMENT LOOP
+
+<div align="center">
+
+### `IDEA`　→　`WIREFRAME`　→　`BUILD`　→　`TEST`　→　`REFINE`
+
+<sub>Every project is a new revision. Every mistake becomes part of the blueprint.</sub>
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/LEONDRIT-BUILDING-0b4f71?style=for-the-badge&labelColor=063451" alt="leondrit is building" />
+<img src="https://img.shields.io/badge/REVISION-01-0b4f71?style=for-the-badge&labelColor=063451" alt="revision 01" />
+<img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-0b4f71?style=for-the-badge&labelColor=063451" alt="status in progress" />
+
+<br /><br />
+
+`END OF DRAWING — MORE BUILDS COMING SOON`
 
 </div>
