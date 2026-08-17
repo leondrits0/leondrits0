@@ -15,21 +15,6 @@
   <text x="48" y="61" font-size="14" letter-spacing="3">LEONDRIT / PERSONAL SYSTEM BLUEPRINT</text>
   <text x="1010" y="61" font-size="14">SHEET 01—01</text>
   <text x="405" y="235" font-size="104" font-weight="700" letter-spacing="-5" filter="url(#glow)">leondrit</text>
-  <text x="412" y="280" font-size="18" letter-spacing="6" fill="#9ee7ff">DESIGN / DEVELOP / ITERATE</text>
-  <text x="412" y="350" font-size="14" letter-spacing="2">FRONTEND DEVELOPER IN PROGRESS</text>
-  <text x="412" y="385" font-size="14" fill="#9ee7ff">BUILDING CLEAN DIGITAL INTERFACES</text>
-
-  <text x="412" y="495" font-size="12" letter-spacing="3" fill="#9ee7ff">SYSTEM COMPONENTS</text>
-  <text x="412" y="540" font-size="18">HTML</text>
-  <text x="535" y="540" font-size="18">CSS</text>
-  <text x="640" y="540" font-size="18">JAVASCRIPT</text>
-  <text x="815" y="540" font-size="18">REACT</text>
-
-  <text x="412" y="645" font-size="12" letter-spacing="3" fill="#9ee7ff">OPERATING SEQUENCE</text>
-  <text x="412" y="690" font-size="16">01  PLAN</text>
-  <text x="548" y="690" font-size="16">02  BUILD</text>
-  <text x="696" y="690" font-size="16">03  TEST</text>
-  <text x="830" y="690" font-size="16">04  REFINE</text>
 
   <text x="48" y="824" font-size="13">STATUS: ACTIVE DEVELOPMENT</text>
   <text x="487" y="824" font-size="13">REVISION: 2026.01</text>
@@ -47,9 +32,6 @@
   <path d="M98 508h192M98 535h132M98 562h178M98 589h105M98 616h160M98 643h78"/>
   <circle cx="291" cy="508" r="5" fill="#c7f2ff"/>
 
-  <path d="M402 305h516M402 418h516M402 575h516M402 728h516" stroke="#8bdcff" stroke-opacity=".7"/>
-  <path d="M412 565v20M523 565v20M628 565v20M803 565v20M905 565v20"/>
-  <path d="M412 713v20M532 713v20M680 713v20M814 713v20M918 713v20"/>
 
   <path d="M388 135h544" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
   <path d="M388 126v18M932 126v18"/>
